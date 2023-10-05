@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Internal Style -->
+    <style>
+        .main_header_class 
+        {display: flex; width: 100%; background-color: black; padding: 0px; margin: 0px;}
+       </style>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- External Style -->
+       <link rel="stylesheet" href="../Styles/styles.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <!-- Google Fonts     -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Pixelify+Sans&family=Young+Serif&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tilt+Prism&family=Young+Serif&display=swap" rel="stylesheet">
+       <title>My Digital Odyssey</title>
+       <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Odyssey</title>
+    <!-- Styles taken or inspired from W3 schools -->
+    <style>
+        #date_button{
+            height: 20px; 
+            width: auto;
+            padding: 0px; 
+            border-color: white; 
+            color: white; 
+            background-color: #232323; 
+            text-wrap: nowrap;
+        }
+        #college_name
+        {
+            color: red;
+            padding-left: 0px;
+            padding-top: 0;
+            margin: 0px; 
+            margin-bottom:5%;
+            font-size: 20px;
+            font-family: 'Young Serif', serif;
+        }
+        .zero_padding_zero_margin
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        .vertical_red_line
+        {
+            height: 450px;
+            width: 0.5%;
+            margin-top: 0px;
+            background-color: red;
+        }
+        .circle
+        {
+            border-radius: 50%;
+            width: 100%; /* Adjust the percentage as needed */
+            height:100%;
+            padding-top: 100%;
+            position: relative;
+            background-color: red;
+        }
+        .up_arrow {
+            margin: 0px;
+            padding: 0px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 15px solid red;
+            }
+        .college_box{
+            background-color: #414141; 
+            color: white; 
+            padding: 5%; 
+            margin: 0; 
+            position: relative; 
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body class="zero_padding_zero_margin background_blackish_color">
+   <!-- Header Tags  -->
+   <div class="main_header_class">
+        <div>
+            <h1 class="name_header">Joel Ukran Sajan</h1>
+            <p class="name_header" style="margin-bottom: 0px;">Aspiring Web Developer</p>
+            <div style="display: flex; flex-wrap: wrap; margin: 10px 0px">
+                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Location_Icon.png" alt="Location Icon"><p><a class="nav_alignment_and_style" href="https://en.wikipedia.org/wiki/Thrissur">Thrissur, Kerala, India</a></p></div>
+                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Send_Icon.png" alt="Send_Icon"><p><a class="nav_alignment_and_style" href="mailto:joel.ukransajan@ucdconnect.ie?cc=joelsajan28@gmail.com&subject=I would like to hire you as my TA!!">joelsajan28@gmail.com</a></p></div>
+                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Call_Icon.png" alt="Call_Icon"><p><a class="nav_alignment_and_style" href="tel:0899882569">+353 899882569</a></p></div>
+                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Github_Icon.png" alt="Github_Icon"><p><a class="nav_alignment_and_style" href="https://github.com/JoelSajan28">Github</a></p></div>
+                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/LinkedIn_Icon.png" alt="LinkedIn_Icon"><p><a class="nav_alignment_and_style" href="https://www.linkedin.com/in/joel-ukran-sajan-8a4092175/">Linkedin</a></p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav Tags  -->
+    <div>
+        <ul>
+            <li><a class="nav_alignment_and_style" href="./ContactMe.html">Contact</a></li>
+            <li><a class="nav_alignment_and_style" href="../index.html">About</a></li>
+            <li><a class="nav_alignment_and_style" href="./Work_Experience.html">Work Experience</a></li>
+            <li><a class="nav_alignment_and_style" href="#">Education</a></li>
+            <li><a class="nav_alignment_and_style" href="./Achievements.html">Achievements</a></li>
+        </ul>
+    </div>
+    <!-- Content -->
+    
+    <!-- Table Format using Tr and Td -->
+    <table style="border-collapse: collapse; display: flex; justify-content: center;">
+        <tr>
+            <td>
+                <div class="college_box red_box_displaced_shadow_left">
+                    <p id="college_name"><b>University College Dublin</b></p>
+                    <p class="zero_padding_zero_margin"><b>Computer Science</b></p>
+                    <p class="zero_padding_zero_margin">Master of Science</p>
+                    <p style="opacity: 40%;padding: 10px 0px;margin: 0px;">Dublin,Ireland</p>
+                    <div>
+                        <div id="date_button">
+                            <p class="zero_padding_zero_margin date_align">Sept 2023 - Jan 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td rowspan="2">
+                <center>
+                    <div class="up_arrow"></div>
+                    <div class="vertical_red_line"></div>
+                    <div class="circle" style="top: -400px;"></div>
+                    <div class="circle" style="top: -250px;"></div>
+                    <div class="circle" style="top: -90px;"></div>
+                </center>
+            </td>
+            <td>
+                <div class="college_box red_box_displaced_shadow_right" style="top: 110px;">
+                    <p id="college_name"><b>Christ University</b></p>
+                    <p class="zero_padding_zero_margin"><b>Mechanical Engineering</b></p>
+                    <p class="zero_padding_zero_margin">Btech</p>
+                    <p style="opacity: 40%;padding: 10px 0px;margin: 0px;">Bengaluru,India</p>
+                    <div>
+                        <div id="date_button">
+                            <p class="zero_padding_zero_margin date_align">Jul 2016 - Mar 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="college_box red_box_displaced_shadow_left" style="top: 30px;">
+                    <p id="college_name"><b>Bharatiya Vidya Bhavan</b></p>
+                    <p class="zero_padding_zero_margin"><b>10th, 12th</b></p>
+                    <p class="zero_padding_zero_margin">High School</p>
+                    <p style="opacity: 40%;padding: 10px 0px;margin: 0px;">Thrissur,India</p>
+                    <div>
+                        <div id="date_button">
+                            <p class="zero_padding_zero_margin date_align">May 2014 - Apl 2016</p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr></tr>
+    </table>
+    
+    <!-- Footer Tags  -->
+    <hr style="margin-top: 2%;">
+    <center><p style="color: white;">"Crafting Tomorrow's Masterpieces, One Pixel at a Time."</p></center>
+
+</body>
+</html>
