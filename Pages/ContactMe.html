@@ -1,110 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Internal Style -->
-    <style>
-        .main_header_class 
-        {display: flex; width: 100%; background-color: black; padding: 0px; margin: 0px;}
-       </style>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- External Style -->
-       <link rel="stylesheet" href="../Styles/styles.css">
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <!-- Google Fonts     -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Pixelify+Sans&family=Young+Serif&display=swap" rel="stylesheet">
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tilt+Prism&family=Young+Serif&display=swap" rel="stylesheet">
-       <title>My Digital Odyssey</title>
-       <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External Style -->
+    <link rel="stylesheet" href="../Styles/CommonStyles.css" />
+    <link rel="stylesheet" href="../Styles/ContactMeStyles.css" />
+    <!-- Google Fonts     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuggles&family=Pixelify+Sans&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tilt+Prism&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Digital Odyssey</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Digital Odyssey</title>
     <style>
-        #submit_button_id
-        {
-            display: flex; 
-            justify-content: center; 
-            margin-left: 60%;
-            margin-top: 2%; 
-            color: white; 
-            font-size: large;
-            overflow: hidden; 
-            border-radius: 10px; 
-            width: 20%;
-            min-width: 100px;
-            padding: 1%; 
-            box-shadow: 1px 1px red;
-        }
-        #subject_entry_id
-        {
-            width: 70%; 
-            border-radius: 10px;
-            font-size: 20px; 
-            padding: 1%;
-            color: white;
-        }
-        #content_text_area_id
-        {
-            width: 70%; 
-            border-radius: 10px; 
-            padding: 15px 15px; 
-            font-size: large; 
-            font-family: 'Courier New', Courier, monospace; 
-            color: white;
-        }
+      .main_header_class {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        padding: 0px;
+        margin: 0px;
+      }
+      .red_text_class{
+        display: flex; 
+        justify-content: start; 
+        padding: 0% 15%;
+        margin: 1% 0%;
+        color: red;
+        font-size: 25px;
+      }
+      #submit_button_id {
+        display: flex;
+        justify-content: center;
+        margin-left: 60%;
+        margin-top: 2%;
+        color: white;
+        font-size: large;
+        overflow: hidden;
+        border-radius: 10px;
+        width: 20%;
+        min-width: 100px;
+        padding: 1%;
+        box-shadow: 1px 1px red;
+      }
+      #subject_entry_id {
+        width: 70%;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 1%;
+        color: white;
+      }
+      #content_text_area_id {
+        width: 70%;
+        border-radius: 10px;
+        padding: 15px 15px;
+        font-size: large;
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+      }
     </style>
-</head>
-<body style="padding: 0px; margin: 0px; background-color: #232323;">
+  </head>
+  <body class="body_frame">
     <!-- Header Tags  -->
     <div class="main_header_class">
-        <div>
-            <h1 class="name_header">Joel Ukran Sajan</h1>
-            <p class="name_header" style="margin-bottom: 0px;">Aspiring Web Developer</p>
-            <div style="display: flex; flex-wrap: wrap; margin: 10px 0px">
-                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Location_Icon.png" alt="Location Icon"><p><a class="nav_alignment_and_style" href="https://en.wikipedia.org/wiki/Thrissur">Thrissur, Kerala, India</a></p></div>
-                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Send_Icon.png" alt="Send_Icon"><p><a class="nav_alignment_and_style" href="mailto:joel.ukransajan@ucdconnect.ie?cc=joelsajan28@gmail.com&subject=I would like to hire you as my TA!!">joelsajan28@gmail.com</a></p></div>
-                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Call_Icon.png" alt="Call_Icon"><p><a class="nav_alignment_and_style" href="tel:0899882569">+353 899882569</a></p></div>
-                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/Github_Icon.png" alt="Github_Icon"><p><a class="nav_alignment_and_style" href="https://github.com/JoelUkranSajan">Github</a></p></div>
-                <div style="display: flex;"><img class="info_icons" src="../Images/Icons/LinkedIn_Icon.png" alt="LinkedIn_Icon"><p><a class="nav_alignment_and_style" href="https://www.linkedin.com/in/joel-ukran-sajan-8a4092175/">Linkedin</a></p></div>
-            </div>
+      <div>
+        <h1 class="name_header">Joel Ukran Sajan</h1>
+        <p class="name_header" style="margin-bottom: 0px">
+          Aspiring Web Developer
+        </p>
+        <div style="display: flex; flex-wrap: wrap; margin: 10px 0px">
+          <div style="display: flex">
+            <img
+              class="info_icons"
+              src="../Images/Icons/Location_Icon.png"
+              alt="Location Icon"
+            />
+            <p>
+              <a
+                class="nav_alignment_and_style"
+                href="https://en.wikipedia.org/wiki/Thrissur"
+                >Thrissur, Kerala, India</a
+              >
+            </p>
+          </div>
+          <div style="display: flex">
+            <img
+              class="info_icons"
+              src="../Images/Icons/Send_Icon.png"
+              alt="Send_Icon"
+            />
+            <p>
+              <a
+                class="nav_alignment_and_style"
+                href="mailto:joel.ukransajan@ucdconnect.ie?cc=joelsajan28@gmail.com&subject=I would like to hire you as my TA!!"
+                >joelsajan28@gmail.com</a
+              >
+            </p>
+          </div>
+          <div style="display: flex">
+            <img
+              class="info_icons"
+              src="../Images/Icons/Call_Icon.png"
+              alt="Call_Icon"
+            />
+            <p>
+              <a class="nav_alignment_and_style" href="tel:0899882569"
+                >+353 899882569</a
+              >
+            </p>
+          </div>
+          <div style="display: flex">
+            <img
+              class="info_icons"
+              src="../Images/Icons/Github_Icon.png"
+              alt="Github_Icon"
+            />
+            <p>
+              <a
+                class="nav_alignment_and_style"
+                href="https://github.com/JoelUkranSajan"
+                >Github</a
+              >
+            </p>
+          </div>
+          <div style="display: flex">
+            <img
+              class="info_icons"
+              src="../Images/Icons/LinkedIn_Icon.png"
+              alt="LinkedIn_Icon"
+            />
+            <p>
+              <a
+                class="nav_alignment_and_style"
+                href="https://www.linkedin.com/in/joel-ukran-sajan-8a4092175/"
+                >Linkedin</a
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Nav Tags  -->
     <div>
-        <ul>
-            <li><a class="nav_alignment_and_style" href="#">Contact</a></li>
-            <li><a class="nav_alignment_and_style" href="../index.html">About</a></li>
-            <li><a class="nav_alignment_and_style" href="./Work_Experience.html">Work Experience</a></li>
-            <li><a class="nav_alignment_and_style" href="./Education.html">Education</a></li>
-            <li><a class="nav_alignment_and_style" href="./Achievements.html">Achievements</a></li>
-        </ul>
+      <ul>
+        <li><a class="nav_alignment_and_style" href="#">Contact</a></li>
+        <li>
+          <a class="nav_alignment_and_style" href="../index.html">About</a>
+        </li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Work_Experience.html"
+            >Work Experience</a
+          >
+        </li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Education.html"
+            >Education</a
+          >
+        </li>
+        <li>
+          <a class="nav_alignment_and_style" href="./Achievements.html"
+            >Achievements</a
+          >
+        </li>
+      </ul>
     </div>
 
     <!-- Content -->
     <center>
-    <div>
+      <div>
         <div>
-            <p id="red_text_id" style="display: flex; justify-content: start;padding: 1% 15%;"><b>Subject</b></p>
-            <input id="subject_entry_id" class="background_light_blackish_color" size="5" type="text" id="name" name="name" required minlength="4" maxlength="100" />
-            </div>
-        <div style="margin-top: 1%;">
-            <p id="red_text_id" style="display: flex; justify-content: start;padding: 1% 15%;"><b>Content</b></p>
-            <textarea id="content_text_area_id" class="zero_padding_zero_margin background_light_blackish_color" rows="15">
-            </textarea>
+          <p
+            class="red_text_class pixel_font"
+          >
+            <b>Subject</b>
+          </p>
+          <input
+            id="subject_entry_id"
+            class="background_light_blackish_color"
+            size="5"
+            type="text"
+            id="name"
+            name="name"
+            required
+            minlength="4"
+            maxlength="100"
+          />
         </div>
-    </div>
+        <div style="margin-top: 1%">
+          <p
+            class="red_text_class pixel_font"
+          >
+            <b>Content</b>
+          </p>
+          <textarea
+            id="content_text_area_id"
+            class="zero_padding_zero_margin background_light_blackish_color"
+            rows="8"
+          >
+          </textarea>
+        </div>
+      </div>
     </center>
-    <Button class="background_light_blackish_color" id="submit_button_id">
-        <b>Submit</b>
-    </Button>
+    <button class="background_light_blackish_color" id="submit_button_id">
+      <b>Submit</b>
+    </button>
     <!-- Footer Tags  -->
-    <hr style="margin-top: 2%;">
-    <center><p style="color: white;">"Crafting Tomorrow's Masterpieces, One Pixel at a Time."</p></center>
-</body>
+    <hr style="margin-top: 2%" />
+    <center>
+      <p style="color: white">
+        "Crafting Tomorrow's Masterpieces, One Pixel at a Time."
+      </p>
+    </center>
+  </body>
 </html>
