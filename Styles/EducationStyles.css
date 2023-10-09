@@ -2,13 +2,11 @@
 {
     overflow: hidden;
     overflow-wrap: break-word;
-    text-wrap: wrap;
 }
 
 .date_align
 {
     overflow: hidden; 
-    text-wrap: wrap; 
     display: flex; 
     justify-content: center;
 }

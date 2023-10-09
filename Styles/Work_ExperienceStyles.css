@@ -54,6 +54,8 @@
     border-radius: 10%;
     padding-top: 5%;
     transition: transform .5s ease-in-out; 
+    align-content: center;
+    text-align: center;
 }
 
 .recommendations_box:hover

@@ -94,22 +94,22 @@ li {
   color: white;
 }
 
-#circular_border
-{
-    border-radius: 20%; 
-    padding: 3%;
-    text-wrap: wrap;
-    display: flex;
-    justify-content: center;
-}
-
-#red_text_id
+.red_text_id
 {
     color: red;
     padding-left: 10px;
     font-size: 30px;
     padding: 0px 0px; 
     margin: 0px;
+}
+
+.circular_border
+{
+    border-radius: 20%; 
+    padding: 3%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .footer_hrule
